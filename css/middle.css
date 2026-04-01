@@ -112,6 +112,90 @@ body {
     font-size: 10px;
 }
 
+/* ========================= */
+/* 🍅 TOMATO ALL PAGE */
+/* ========================= */
+
+.tomato-hero {
+    height: 260px;
+    background: url('../images/tomato-banner.jpg') center/cover no-repeat;
+}
+
+.tomato-page {
+    background: #f7eeee;
+    padding: 50px 0 70px;
+}
+
+.tomato-intro h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #324950;
+    margin-bottom: 10px;
+}
+
+.tomato-intro p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #324950;
+    max-width: 950px;
+}
+
+.tomato-columns {
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.tomato-col-box {
+    border-top: 1px solid #cfcfcf;
+    padding-top: 15px;
+    height: 100%;
+}
+
+.tomato-col-box h3 {
+    font-size: 18px;
+    color: #324950;
+    margin-bottom: 12px;
+}
+
+.tomato-col-box p {
+    font-size: 13px;
+    line-height: 1.7;
+    color: #324950;
+}
+
+.tomato-cards h2 {
+    font-size: 16px;
+    color: #57984c;
+    margin-bottom: 20px;
+}
+
+.product-card {
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+    height: 100%;
+}
+
+.product-card img {
+    width: 100%;
+    max-width: 220px;
+    height: 160px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.product-card h4 {
+    font-size: 13px;
+    color: #57984c;
+    margin-bottom: 6px;
+}
+
+.product-card p {
+    font-size: 11px;
+    color: #324950;
+    margin: 0;
+}
+
 /* MOBILE */
 @media (max-width: 768px) {
     .hero {
@@ -124,5 +208,13 @@ body {
 
     .info-image {
         width: 200px;
+    }
+
+    .tomato-hero {
+        height: 180px;
+    }
+
+    .tomato-intro h1 {
+        font-size: 24px;
     }
 }
