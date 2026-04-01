@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #324950;
+}
+
+/* HERO */
+.hero {
+    height: 350px;
+    background: url('../images/hero.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 30px;
+    color: #7c5a3c;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-btn {
+    background-color: #57984c;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 12px;
+    border: none;
+}
+
+.hero-btn:hover {
+    background-color: #4a863f;
+}
+
+/* CATEGORIES */
+.categories {
+    background-color: #f1f1f1;
+    padding: 15px 0;
+}
+
+.category-item p {
+    font-size: 11px;
+    margin: 0;
+}
+
+/* VISION / MISSION */
+.vision-mission {
+    padding: 60px 0;
+}
+
+.vision-row {
+    margin-bottom: 80px;
+}
+
+.mission-row {
+    margin-top: 40px;
+}
+
+.text-block h2 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.line {
+    width: 35px;
+    height: 3px;
+    background: #57984c;
+    margin: 10px 0 15px;
+}
+
+.text-block p {
+    font-size: 12px;
+    max-width: 360px;
+    line-height: 1.7;
+}
+
+.info-image {
+    width: 260px;
+}
+
+.shadow-img {
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* ACTIVITIES */
+.activities {
+    background: #fff;
+    padding: 60px 0;
+}
+
+.activities h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.center-line {
+    margin: 10px auto 0;
+}
+
+.activity-card img {
+    width: 110px;
+    margin-bottom: 10px;
+}
+
+.activity-card h4 {
+    font-size: 12px;
+    color: #57984c;
+}
+
+.activity-card p {
+    font-size: 10px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .hero {
+        height: 250px;
+    }
+
+    .hero h1 {
+        font-size: 22px;
+    }
+
+    .info-image {
+        width: 200px;
+    }
+}
